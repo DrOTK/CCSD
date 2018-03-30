@@ -22,5 +22,5 @@ insert into Car (Make, Model, Price, mpgc, mpgh) values('Hyundai', 'Genesis', 39
 insert into Car (Make, Model, Price, mpgc, mpgh) values('Audi', 'R8', 164900.00, 14, 22);
 
 
-describe Dealership;
+describe Car;
 
