@@ -16,6 +16,11 @@
     <form id="form1" runat="server">
         <p>
             Please Enter Car Information.</p>
+        <p>
+            <asp:Label ID="lblCID" runat="server" Text="Car ID"></asp:Label>
+            :&nbsp;&nbsp;
+            <asp:TextBox ID="tbCID" runat="server"></asp:TextBox>
+        </p>
         <asp:Label ID="Label1" runat="server" Text="Make:"></asp:Label>
 &nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="tbMake" runat="server"></asp:TextBox>
@@ -32,12 +37,12 @@
         <br />
         <br />
         <asp:Label ID="Label4" runat="server" Text="MPGC:"></asp:Label>
-&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;
         <asp:TextBox ID="tbMPGC" runat="server"></asp:TextBox>
         <br />
         <br />
         <asp:Label ID="Label5" runat="server" Text="MPGH:"></asp:Label>
-&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;
         <asp:TextBox ID="tbMPGH" runat="server"></asp:TextBox>
         <br />
         <br />
